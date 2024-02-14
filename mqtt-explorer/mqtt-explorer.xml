@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>mqtt-explorer</Name>
+  <Repository>smeagolworms4/mqtt-explorer</Repository>
+  <Registry>https://hub.docker.com/r/smeagolworms4/mqtt-explorer/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://hub.docker.com/r/smeagolworms4/mqtt-explorer/</Support>
+  <Project/>
+  <Overview>Compile NodeJS version for MQTT explorer. You can use in browser&#xD;
+&#xD;
+&#xD;
+Converted By Community Applications   Always verify this template (and values)  against the support page for the container&#xD;
+&#xD;
+https://hub.docker.com/r/smeagolworms4/mqtt-explorer/</Overview>
+  <Category/>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon/>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1707650577</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Container Port 1" Target="4000" Default="4000" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">4000</Config>
+  <Config Name="Container Variable 1" Target="NODE_VERSION" Default="18.17.0" Mode="{3}" Description="" Type="Variable" Display="always" Required="false" Mask="false">18.17.0</Config>
+  <Config Name="Container Variable 2" Target="YARN_VERSION" Default="1.22.19" Mode="{3}" Description="" Type="Variable" Display="always" Required="false" Mask="false">1.22.19</Config>
+  <Config Name="Container Variable 3" Target="HTTP_PORT" Default="4000" Mode="{3}" Description="" Type="Variable" Display="always" Required="false" Mask="false">4000</Config>
+  <Config Name="Container Variable 4" Target="CONFIG_PATH" Default="/mqtt-explorer/config" Mode="{3}" Description="" Type="Variable" Display="always" Required="false" Mask="false">/mqtt-explorer/config</Config>
+  <Config Name="Container Variable 5" Target="HTTP_USER" Default="" Mode="{3}" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Container Variable 6" Target="HTTP_PASSWORD" Default="" Mode="{3}" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Container Variable 7" Target="SSL_KEY_PATH" Default="" Mode="{3}" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Container Variable 8" Target="SSL_CERT_PATH" Default="" Mode="{3}" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Container Variable 9" Target="INITIAL_CONFIG" Default="" Mode="{3}" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+</Container>
